@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b3fa66fd1df416b4d979517befec45a4
+guid: 20d0c85360ec31b439e2824ee9101796
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dat_0
+      name: nendat_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 5
-        width: 16
-        height: 32
+        x: 44
+        y: 19
+        width: 68
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d66a3db545038c44b92ea6acbefca87f
-      internalID: 691052497
+      spriteID: fe4b91b0caf50004ea1ab164faaf887b
+      internalID: 1402044966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_1
+      name: nendat_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 5
-        width: 32
-        height: 33
+        x: 130
+        y: 19
+        width: 125
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4009e6898760f5249a883262ff4c4662
-      internalID: -347530610
+      spriteID: c05be3fcd00c2014d9236f14c8659a56
+      internalID: -1073921332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_2
+      name: nendat_2
       rect:
         serializedVersion: 2
-        x: 102
-        y: 5
-        width: 16
-        height: 33
+        x: 293
+        y: 19
+        width: 65
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7eac0c2558038c4ca715f08ff72cd4e
-      internalID: 1924554533
+      spriteID: 2b731222849084c46994e5783a1bb5e6
+      internalID: 1560696063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_3
+      name: nendat_3
       rect:
         serializedVersion: 2
-        x: 134
-        y: 5
-        width: 16
-        height: 32
+        x: 401
+        y: 19
+        width: 58
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec077fbc96b439940933551529813bff
-      internalID: 1832816309
+      spriteID: fa764ea83b87b8f42ae10535bccf868d
+      internalID: 1826589505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_4
+      name: nendat_4
       rect:
         serializedVersion: 2
-        x: 166
-        y: 5
-        width: 32
-        height: 33
+        x: 492
+        y: 19
+        width: 112
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96e62eb98f32c06488aa516bcf927840
-      internalID: 1912189745
+      spriteID: fdc7d548c0fc6d941870f0af8117ee3a
+      internalID: 1054112306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_5
+      name: nendat_5
       rect:
         serializedVersion: 2
-        x: 214
-        y: 5
-        width: 32
-        height: 33
+        x: 638
+        y: 19
+        width: 111
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cbbf8fa2784849419bbfed25f33b598
-      internalID: -1668897488
+      spriteID: 49bade7d56234e641afcb07a930ec35f
+      internalID: 773215973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_6
+      name: nendat_6
       rect:
         serializedVersion: 2
-        x: 262
-        y: 5
-        width: 32
-        height: 33
+        x: 779
+        y: 19
+        width: 115
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd954d0dee390a7439291878dfc5b5e2
-      internalID: 1083087589
+      spriteID: 5fd29b6fe277c174ba118c259bf5a71c
+      internalID: 59078817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dat_7
+      name: nendat_7
       rect:
         serializedVersion: 2
-        x: 310
-        y: 5
-        width: 16
-        height: 32
+        x: 920
+        y: 19
+        width: 56
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151356c487764dc4e8209a34c97015e5
-      internalID: -740961537
+      spriteID: b2d38620d56f89142bec1a0d12f3424a
+      internalID: -1289909831
       vertices: []
       indices: 
       edges: []
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dat_0: 691052497
-      dat_1: -347530610
-      dat_2: 1924554533
-      dat_3: 1832816309
-      dat_4: 1912189745
-      dat_5: -1668897488
-      dat_6: 1083087589
-      dat_7: -740961537
+      nendat_0: 1402044966
+      nendat_1: -1073921332
+      nendat_2: 1560696063
+      nendat_3: 1826589505
+      nendat_4: 1054112306
+      nendat_5: 773215973
+      nendat_6: 59078817
+      nendat_7: -1289909831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
