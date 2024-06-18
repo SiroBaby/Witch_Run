@@ -14,6 +14,9 @@ public class Ground : MonoBehaviour
 
     bool didGenerateGround = false; // Cờ để kiểm tra mặt đất đã được tạo mới chưa
 
+    public ObstacleWater obstacleWater;
+    public ObstacleEnemy obstacleEnemy;
+
     // Phương thức Awake được gọi khi đối tượng này được khởi tạo
     private void Awake()
     {
@@ -110,5 +113,29 @@ public class Ground : MonoBehaviour
         // Cập nhật chiều cao của mặt đất mới
         Ground goGround = go.GetComponent<Ground>();
         goGround.groundHeight = go.transform.position.y + (goCollider.size.y / 2);
+
+        int obstacleWaterNum = UnityEngine.Random.Range(0, 2);
+        for (int i=0; i<obstacleWaterNum; i++)
+        {
+            float y = goGround.groundHeight - 0.8f;
+            float width = goCollider.size.x / 2 - 1;
+            float left = go.transform.position.x - width + 8f;
+            float right = go.transform.position.x + width - 8f;
+            float x = UnityEngine.Random.Range(left, right);
+            GameObject water = Instantiate(obstacleWater.gameObject);
+            water.transform.position = new Vector2(x, y);
+        }
+
+        int obstacleEnemyNum = UnityEngine.Random.Range(0, 2);
+        for (int i=0; i<obstacleEnemyNum; i++)
+        {
+            float y = goGround.groundHeight + 1;
+            float width = goCollider.size.x / 2 - 1;
+            float left = go.transform.position.x - width;
+            float right = go.transform.position.x + width;
+            float x = UnityEngine.Random.Range(left, right);
+            GameObject tegiac = Instantiate(obstacleEnemy.gameObject);
+            tegiac.transform.position = new Vector2(x, y);
+        }
     }
 }

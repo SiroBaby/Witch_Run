@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d9a33842c049ba84f8b11b5b1c1a6935
+guid: 7de2b15c9e4bb1c42abb8ee72327ae51
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_0
+      name: nguoi_tuyet2_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 102
-        width: 20
-        height: 19
+        x: 11
+        y: 886
+        width: 153
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f00741456fb17498053beed81734f7
-      internalID: 344193614
+      spriteID: b400d8fea1073c84eb78d73189b7ac4d
+      internalID: -99194949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_1
+      name: nguoi_tuyet2_1
       rect:
         serializedVersion: 2
         x: 6
-        y: 66
-        width: 20
-        height: 19
+        y: 662
+        width: 164
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43e1e2b14f039b5409ffce5044c6cbef
-      internalID: -628524092
+      spriteID: e7b82b008f2c3b44b871d18621b4fc2a
+      internalID: -508604485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_2
+      name: nguoi_tuyet2_2
       rect:
         serializedVersion: 2
-        x: 6
-        y: 34
-        width: 20
-        height: 18
+        x: 0
+        y: 445
+        width: 171
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73791cee2e797444297747554106e5ff
-      internalID: 806207311
+      spriteID: f506c0283be665d41aff91ea0076e214
+      internalID: 1393835341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: water_3
+      name: nguoi_tuyet2_3
       rect:
         serializedVersion: 2
         x: 6
-        y: 2
-        width: 20
-        height: 19
+        y: 220
+        width: 164
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425168bf6a95d3b41a9b4b247d658862
-      internalID: 1015357240
+      spriteID: f8fac571a09a93740a128bf259a2fbe2
+      internalID: 1463567108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nguoi_tuyet2_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10
+        width: 153
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f018f19360bfa45afcd11b421a2e62
+      internalID: -1180296083
       vertices: []
       indices: 
       edges: []
@@ -217,10 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      water_0: 344193614
-      water_1: -628524092
-      water_2: 806207311
-      water_3: 1015357240
+      nguoi_tuyet2_0: -99194949
+      nguoi_tuyet2_1: -508604485
+      nguoi_tuyet2_2: 1393835341
+      nguoi_tuyet2_3: 1463567108
+      nguoi_tuyet2_4: -1180296083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

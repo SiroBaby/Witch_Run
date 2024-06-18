@@ -529,6 +529,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8715599052998082974, guid: 5188de611c0c0924c9156ff1edbd1607, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -12.182728
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715599052998082974, guid: 5188de611c0c0924c9156ff1edbd1607, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.9641
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -542,6 +550,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2016216675661699998, guid: b946b68c163b995408bda8a59afc82d8, type: 3}
+      propertyPath: obstacleEnemy
+      value: 
+      objectReference: {fileID: 6943314516713788580, guid: 7b3d340348c56a94aa5d54d652e20ec8, type: 3}
+    - target: {fileID: 2016216675661699998, guid: b946b68c163b995408bda8a59afc82d8, type: 3}
+      propertyPath: obstacleWater
+      value: 
+      objectReference: {fileID: 3238692752612597035, guid: bebbc2f63d19ae149b81e205231e3885, type: 3}
+    - target: {fileID: 2016216675661699998, guid: b946b68c163b995408bda8a59afc82d8, type: 3}
+      propertyPath: obstacleTemplate
+      value: 
+      objectReference: {fileID: 3238692752612597035, guid: bebbc2f63d19ae149b81e205231e3885, type: 3}
     - target: {fileID: 3275755095867002238, guid: b946b68c163b995408bda8a59afc82d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32
@@ -662,6 +682,10 @@ PrefabInstance:
     - target: {fileID: 5773455559269887770, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438650666345491300, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
+      propertyPath: maxXVelocity
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
