@@ -1,31 +1,82 @@
 fileFormatVersion: 2
-guid: bce7494c01af006499c2894bcb2b1a23
+guid: d3b49e4c309715b429ea302da3f84dd1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1445676004249743745
-    second: bg_menu-Sheet_0
+      213: -3031408270846433055
+    second: run_tim_0
   - first:
-      213: 1055844186179641985
-    second: bg_menu-Sheet_1
+      213: -9113237707197372331
+    second: run_tim_1
   - first:
-      213: -8387593881692267542
-    second: bg_menu-Sheet_2
+      213: -548620190719416019
+    second: run_tim_2
   - first:
-      213: -4912415902058376510
-    second: bg_menu-Sheet_3
+      213: 5331932619014063711
+    second: run_tim_3
   - first:
-      213: -8259394648894158809
-    second: bg_menu-Sheet_4
+      213: 8977623792799403529
+    second: run_tim_4
   - first:
-      213: -6454420986319912944
-    second: bg_menu-Sheet_5
+      213: 3428462737624793219
+    second: run_tim_5
   - first:
-      213: -1540030334964969457
-    second: bg_menu-Sheet_6
+      213: -1963952355311133686
+    second: run_tim_6
   - first:
-      213: -3788904073007791031
-    second: bg_menu-Sheet_7
+      213: -4980611375836168951
+    second: run_tim_7
+  - first:
+      213: -1723721207378824566
+    second: run_tim_8
+  - first:
+      213: 4418156593252084267
+    second: run_tim_9
+  - first:
+      213: -2215342502324163428
+    second: run_tim_10
+  - first:
+      213: 2065433810003543096
+    second: run_tim_11
+  - first:
+      213: 7437859119362872628
+    second: run_tim_12
+  - first:
+      213: -3862980597814966619
+    second: run_tim_13
+  - first:
+      213: 5248458358129504435
+    second: run_tim_14
+  - first:
+      213: -4421753013448186398
+    second: run_tim_15
+  - first:
+      213: 1080627786619898300
+    second: run_tim_16
+  - first:
+      213: -5176997648074960735
+    second: run_tim_17
+  - first:
+      213: 2446268145343440619
+    second: run_tim_18
+  - first:
+      213: 9131551506854088555
+    second: run_tim_19
+  - first:
+      213: -5969130516438138872
+    second: run_tim_20
+  - first:
+      213: 1078112903516950166
+    second: run_tim_21
+  - first:
+      213: 8478686163975356579
+    second: run_tim_22
+  - first:
+      213: -1211968454896956186
+    second: run_tim_23
+  - first:
+      213: -7038970545514435909
+    second: run_tim_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -121,169 +172,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_menu-Sheet_0
+      name: run_tim_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 23
-        width: 1480
-        height: 902
+        x: 9
+        y: 8
+        width: 36
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 181bc959aa2101410800000000000000
-      internalID: 1445676004249743745
+      spriteID: 1e8640f1d364ee5d0800000000000000
+      internalID: -3031408270846433055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_1
+      name: run_tim_1
       rect:
         serializedVersion: 2
-        x: 1561
-        y: 23
-        width: 1480
-        height: 902
+        x: 66
+        y: 8
+        width: 38
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 182266771bc17ae00800000000000000
-      internalID: 1055844186179641985
+      spriteID: 5582eccd696478180800000000000000
+      internalID: -9113237707197372331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_2
+      name: run_tim_2
       rect:
         serializedVersion: 2
-        x: 3095
-        y: 23
-        width: 1480
-        height: 902
+        x: 124
+        y: 8
+        width: 39
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aeb1e71ddc7499b80800000000000000
-      internalID: -8387593881692267542
+      spriteID: d29ef8fd7d8e268f0800000000000000
+      internalID: -548620190719416019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_3
+      name: run_tim_4
       rect:
         serializedVersion: 2
-        x: 4629
-        y: 23
-        width: 1480
-        height: 902
+        x: 182
+        y: 8
+        width: 39
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c294d0a3c793dbb0800000000000000
-      internalID: -4912415902058376510
+      spriteID: 90e47e8264de69c70800000000000000
+      internalID: 8977623792799403529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_4
+      name: run_tim_8
       rect:
         serializedVersion: 2
-        x: 6163
-        y: 23
-        width: 1480
-        height: 902
+        x: 298
+        y: 8
+        width: 41
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 728c6e4b35cb06d80800000000000000
-      internalID: -8259394648894158809
+      spriteID: a82b06ec1bc1418e0800000000000000
+      internalID: -1723721207378824566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_5
+      name: run_tim_10
       rect:
         serializedVersion: 2
-        x: 7697
-        y: 23
-        width: 1480
-        height: 902
+        x: 356
+        y: 8
+        width: 41
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01043975f4a4d66a0800000000000000
-      internalID: -6454420986319912944
+      spriteID: c9ca4254bb58141e0800000000000000
+      internalID: -2215342502324163428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_6
+      name: run_tim_12
       rect:
         serializedVersion: 2
-        x: 9231
-        y: 23
-        width: 1480
-        height: 902
+        x: 414
+        y: 8
+        width: 39
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f00561dd196b0aae0800000000000000
-      internalID: -1540030334964969457
+      spriteID: 435160b2675983760800000000000000
+      internalID: 7437859119362872628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_menu-Sheet_7
+      name: run_tim_16
       rect:
         serializedVersion: 2
-        x: 10765
-        y: 23
-        width: 1485
-        height: 902
+        x: 240
+        y: 8
+        width: 40
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9440750f1db1b6bc0800000000000000
-      internalID: -3788904073007791031
+      spriteID: cb945eb1f392ffe00800000000000000
+      internalID: 1080627786619898300
       vertices: []
       indices: 
       edges: []
@@ -291,7 +342,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5a4e0c2b1b9bfe341bdcfdc0f0025225
     internalID: 0
     vertices: []
     indices: 
@@ -299,14 +350,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bg_menu-Sheet_0: 1445676004249743745
-      bg_menu-Sheet_1: 1055844186179641985
-      bg_menu-Sheet_2: -8387593881692267542
-      bg_menu-Sheet_3: -4912415902058376510
-      bg_menu-Sheet_4: -8259394648894158809
-      bg_menu-Sheet_5: -6454420986319912944
-      bg_menu-Sheet_6: -1540030334964969457
-      bg_menu-Sheet_7: -3788904073007791031
+      run_tim_0: -3031408270846433055
+      run_tim_1: -9113237707197372331
+      run_tim_10: -2215342502324163428
+      run_tim_11: 2065433810003543096
+      run_tim_12: 7437859119362872628
+      run_tim_13: -3862980597814966619
+      run_tim_14: 5248458358129504435
+      run_tim_15: -4421753013448186398
+      run_tim_16: 1080627786619898300
+      run_tim_17: -5176997648074960735
+      run_tim_18: 2446268145343440619
+      run_tim_19: 9131551506854088555
+      run_tim_2: -548620190719416019
+      run_tim_20: -5969130516438138872
+      run_tim_21: 1078112903516950166
+      run_tim_22: 8478686163975356579
+      run_tim_23: -1211968454896956186
+      run_tim_24: -7038970545514435909
+      run_tim_3: 5331932619014063711
+      run_tim_4: 8977623792799403529
+      run_tim_5: 3428462737624793219
+      run_tim_6: -1963952355311133686
+      run_tim_7: -4980611375836168951
+      run_tim_8: -1723721207378824566
+      run_tim_9: 4418156593252084267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

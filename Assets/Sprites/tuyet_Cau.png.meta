@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tuyet_Cau_0: 285728812658092970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

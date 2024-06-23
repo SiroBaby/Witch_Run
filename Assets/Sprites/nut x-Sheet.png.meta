@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d859678ffa7d50247b45c3e08c51b94d
+guid: df0bb6fc6627b7848aed3552b47a5642
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6846801343170317837
-    second: bg_menu3_0
+      213: 3235790043030476833
+    second: nut x-Sheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_menu3_0
+      name: nut x-Sheet_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 23
-        width: 1480
-        height: 902
+        x: 0
+        y: 0
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f17aac44764bf0a0800000000000000
-      internalID: -6846801343170317837
+      spriteID: 128d39276e5d7ec20800000000000000
+      internalID: 3235790043030476833
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bg_menu3_0: -6846801343170317837
+      nut x-Sheet_0: 3235790043030476833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
