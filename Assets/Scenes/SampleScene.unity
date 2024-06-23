@@ -10478,9 +10478,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6438650666345491300, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
+      propertyPath: characterDB
+      value: 
+      objectReference: {fileID: 11400000, guid: 96dab02f8c8c17449aa81c87fbc35907, type: 2}
+    - target: {fileID: 6438650666345491300, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
       propertyPath: maxXVelocity
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6438650666345491300, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
+      propertyPath: artworkSprite
+      value: 
+      objectReference: {fileID: 2879670066060371073}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10489,6 +10497,11 @@ PrefabInstance:
       addedObject: {fileID: 1455520681}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
+--- !u!212 &2879670066060371073 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4789726317569851730, guid: 2e050c63e2632064ba0bb4475d78c095, type: 3}
+  m_PrefabInstance: {fileID: 2879670066060371072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

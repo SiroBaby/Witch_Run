@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    public CharacterDatabase characterDB; // Database chứa danh sách các nhân vật
+
+    public SpriteRenderer artworkSprite; // SpriteRenderer để hiển thị hình ảnh nhân vật
+
+    private int selectedOption = 0; // Lựa chọn nhân vật hiện tại
+
     // Các biến công khai cho thuộc tính và trạng thái của người chơi
     public float gravity; // Lực hấp dẫn tác động lên người chơi
     public Vector2 velocity; // Vận tốc hiện tại của người chơi
@@ -24,6 +31,17 @@ public class Player : MonoBehaviour
     void Start()
     {
         // Mã khởi tạo có thể đặt ở đây
+        // Kiểm tra xem đã có lựa chọn nhân vật được lưu hay chưa
+        if (!PlayerPrefs.HasKey("selectedOption"))
+        {
+            selectedOption = 0; // Nếu chưa, lựa chọn mặc định là 0
+        }
+        else
+        {
+            Load(); // Nếu đã có, tải lựa chọn từ PlayerPrefs
+        }
+
+        UpdateCharacer(selectedOption); // Cập nhật hình ảnh cho nhân vật được chọn ban đầu
     }
 
     // Update được gọi một lần mỗi khung hình
@@ -143,4 +161,19 @@ public class Player : MonoBehaviour
         // Cập nhật vị trí của người chơi
         transform.position = pos;
     }
+
+    // Phương thức cập nhật hình ảnh của nhân vật
+    private void UpdateCharacer(int selectedOption)
+    {
+        // Lấy thông tin nhân vật từ database
+        Character character = characterDB.GetCharacter(selectedOption);
+        artworkSprite.sprite = character.characterSprite; // Thiết lập hình ảnh cho SpriteRenderer
+    }
+
+    // Phương thức tải lựa chọn nhân vật từ PlayerPrefs
+    private void Load()
+    {
+        selectedOption = PlayerPrefs.GetInt("selectedOption");
+    }
+
 }
