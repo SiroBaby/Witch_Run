@@ -9,5 +9,11 @@ public class mainmenu : MonoBehaviour
     {
         SceneManager.LoadScene ("SampleScene");
     }
-   
+    public void Shop () 
+    {
+        SceneManager.LoadScene ("Shop");
+    }
+    public void Setting () {
+        SceneManager.LoadScene ("Setting");
+    }
 }
